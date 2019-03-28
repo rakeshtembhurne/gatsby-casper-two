@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  repo: rakeshtembhurne/gatsby-casper-two #replace with your username/repo
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "/img"
+# media_folder: static/img
+public_folder: "img"
+
+collections:
+  - name: blog
+    label: Blog
+    folder: src/content
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Title }
+      - { name: image, label: image, widget: image }
+      - { name: author, label: author }
+      - { name: slug, label: slug }
+      - { name: date, label: Date, widget: date }
+      - { name: date_updated, label: date_updated, widget: date }
+      - { name: tags, label: tags }
+      - { label: Draft, name: draft, widget: boolean, default: true}
+      - { name: body, label: Body, widget: markdown }

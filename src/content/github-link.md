@@ -4,9 +4,8 @@ image: img/IMG-20150215-WA0007.jpg
 author: Ghost
 slug: ghost
 date: 2019-03-10T10:00:00.000Z
-date_updated: 2019-03-26T10:40:34.085Z
-tags:
-  - Source
+date_updated: 2019-03-28T10:58:23.655Z
+tags: Architecture
 draft: true
 ---
 Blog description...

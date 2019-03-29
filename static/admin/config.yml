@@ -22,6 +22,6 @@ collections:
       - { name: slug, label: slug }
       - { name: date, label: Date, widget: date }
       - { name: date_updated, label: date_updated, widget: date }
-      - { name: tags, label: tags, widget: tags }
+      - { name: tags, label: tags }
       - { label: Draft, name: draft, widget: boolean, default: true}
       - { name: body, label: Body, widget: markdown }

@@ -28,7 +28,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/about.tsx"
+      - file: "src/pages/about"
         label: "About Page"
         name: "contact"
         fields:
